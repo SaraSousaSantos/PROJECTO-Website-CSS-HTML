@@ -190,7 +190,7 @@ footer {
   max-height: 31rem;
 }
 
-.lado-esquerdo {
+.lado-direito {
   display: flex;
   flex-direction: column;
   padding: 2rem 2rem;
