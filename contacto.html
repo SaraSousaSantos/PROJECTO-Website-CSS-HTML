@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AquaLeaf</title>
+    <link rel="stylesheet" href="./CSS/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Plus+Jakarta+Sans:wght@300;400;500;600&family=Source+Sans+3:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <img id="logo" src="./IMG/logo.png" alt="" />
+          <li><a href="index.html">Home</a></li>
+          <li><a href="catalogo.html">Catálogo</a></li>
+          <li><a href="sobre.html">Sobre</a></li>
+          <li><a href="contacto.html">Contacto</a></li>
+          <li><a href="carrinho.html">Carrinho</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div class="fundo-contacto">
+        <form class="form-contacto" method="post">
+          <h2>Contacte-nos</h2>
+
+          <label for="nome"></label>
+          <input
+            type="text"
+            name="nome"
+            id="nome"
+            placeholder="Nome"
+            required
+          />
+
+          <label for="email"></label>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="E-mail"
+            required
+          />
+
+          <label for="telemovel"></label>
+          <input
+            type="tel"
+            name="telemovel"
+            id="telemovel"
+            placeholder="Telemóvel"
+            required
+          />
+
+          <label for="morada"></label>
+          <input
+            type="text"
+            name="morada"
+            id="morada"
+            placeholder="Morada"
+            required
+          />
+
+          <label for="mensagem"></label>
+          <textarea
+            name="mensagem"
+            id="mensagem"
+            placeholder="Mensagem"
+            rows="4"
+            cols="50"
+          ></textarea>
+
+          <button type="submit">Enviar</button>
+        </form>
+      </div>
+    </main>
+
+    <footer class="footer-no-margin">
+      <p>&copy; 2025 AquaLeaf. Todos os direitos reservados.</p>
+    </footer>
+  </body>
+</html>
